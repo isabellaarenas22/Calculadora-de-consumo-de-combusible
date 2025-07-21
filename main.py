@@ -1,4 +1,4 @@
-import math
+    import math
 import matplotlib.pyplot as plt
 
 class RocketCalculator:
@@ -99,3 +99,5 @@ class Main:
 
 if _name_ == "_main_":
     Main.run()
+<!-- Tip: cambiar caracteres problematicos en ciertas partes -->
+
