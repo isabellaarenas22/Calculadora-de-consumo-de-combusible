@@ -25,7 +25,7 @@ class Main:
             # Cálculo
             calculadora = RocketCalculator(ve, m0, mf)
             delta_v = calculadora.calcular_delta_v()
-            print(f"\n✅ El Delta-V es: {delta_v:.2f} m/s")
+            print(f"\n El Delta-V es: {delta_v:.2f} m/s")
 
         except ValueError as e:
             print(f"⚠ Error: {e}")
@@ -78,7 +78,7 @@ class DeltaVPlotter:
 class Main:
     @staticmethod
     def run():
-        print("🚀 Calculadora de Delta-V")
+        print(" Calculadora de Delta-V")
         try:
             ve = float(input("Velocidad de eyección (m/s): "))
             m0 = float(input("Masa inicial (kg): "))
@@ -87,7 +87,7 @@ class Main:
             # Cálculo
             calculadora = RocketCalculator(ve, m0, mf)
             delta_v = calculadora.calcular_delta_v()
-            print(f"\n✅ El Delta-V es: {delta_v:.2f} m/s")
+            print(f"\nEl Delta-V es: {delta_v:.2f} m/s")
 
             # Gráfica
             grafico = DeltaVPlotter(ve, m0)
