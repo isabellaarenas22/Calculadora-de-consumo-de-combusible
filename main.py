@@ -18,17 +18,17 @@ class Main:
     def run():
         print("Calculadora de Delta-V")
         try:
-            ve = float(input("Velocidad de eyección (m/s): "))
+            ve = float(input("Velocidad de eyeccion (m/s): "))
             m0 = float(input("Masa inicial (kg): "))
             mf = float(input("Masa final (kg): "))
 
-            # Cálculo
+            # Calculo
             calculadora = RocketCalculator(ve, m0, mf)
             delta_v = calculadora.calcular_delta_v()
             print(f"\n El Delta-V es: {delta_v:.2f} m/s")
 
         except ValueError as e:
-            print(f"⚠ Error: {e}")
+            print(f" Error: {e}")
 
 
 if _name_ == "_main_":
@@ -84,20 +84,20 @@ class Main:
             m0 = float(input("Masa inicial (kg): "))
             mf = float(input("Masa final (kg): "))
 
-            # Cálculo
+            # Calculo
             calculadora = RocketCalculator(ve, m0, mf)
             delta_v = calculadora.calcular_delta_v()
             print(f"\nEl Delta-V es: {delta_v:.2f} m/s")
 
-            # Gráfica
+            # Grafica
             grafico = DeltaVPlotter(ve, m0)
             grafico.graficar_delta_v_vs_mf()
 
         except ValueError as e:
-            print(f"⚠ Error: {e}")
+            print(f" Error: {e}")
 
 
 if _name_ == "_main_":
     Main.run()
-<!-- Tip: cambiar caracteres problematicos en ciertas partes -->
+
 
