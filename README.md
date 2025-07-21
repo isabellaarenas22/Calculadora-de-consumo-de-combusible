@@ -29,6 +29,8 @@ El código está dividido en tres clases:
 - `DeltaVPlotter`: genera una gráfica de Delta-V vs masa final.
 - `Main`: gestiona la entrada del usuario, ejecución del cálculo y despliegue de resultados.
 
+  <!-- Sugerencia: Si se agregan más funcionalidades, actualizar esta lista -->
+
 
 ## Cómo ejecutar el programa
 
@@ -52,10 +54,14 @@ Para correr el código se debe tener:
 * Python 3.8 o superior
 * matplotlib
 
+<!-- agregar instrucciones de uso para el usuario -->
+
 
 ## Aplicación
 
 El proyecto permite ilustrar la relación entre masa y maniobrabilidad de un vehículo espacial, al igual que demuestra cómo la programación puede apoyar en el análisis y el diseño en misiones aeroespaciales.
+
+<!-- Si el proyecto crece, esta sección puede incluir más detalles técnicos -->
 
 ## Autores
 
