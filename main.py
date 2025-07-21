@@ -1,4 +1,4 @@
-    import math
+import math
 import matplotlib.pyplot as plt
 
 class RocketCalculator:
@@ -31,13 +31,13 @@ class Main:
             print(f" Error: {e}")
 
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     Main.run()
 import math
 import matplotlib.pyplot as plt
 
 class RocketCalculator:
-    def _init_(self, ve: float, m0: float, mf: float):
+    def __init__(self, ve: float, m0: float, mf: float):
         self.ve = ve
         self.m0 = m0
         self.mf = mf
@@ -49,7 +49,7 @@ class RocketCalculator:
 
 
 class DeltaVPlotter:
-    def _init_(self, ve: float, m0: float):
+    def __init__(self, ve: float, m0: float):
         self.ve = ve
         self.m0 = m0
 
@@ -97,7 +97,7 @@ class Main:
             print(f" Error: {e}")
 
 
-if _name_ == "_main_":
-    Main.run()
+if __name__ == "__main__":
+    Main.run()
 
 
