@@ -1,7 +1,7 @@
 
-# Calculadora de Delta-V (Ecuación de Tsiolkovsky)
+# Calculadora de Delta-V usando la ecuación de Tsiolkovsky
 
-Este proyecto es una calculadora interactiva escrita en Python que permite determinar el cambio de velocidad (Delta-V) de un cohete, utilizando la ecuación del cohete de Tsiolkovsky. Además, incluye una visualización gráfica de cómo varía el Delta-V según la masa final del cohete.
+Este proyecto consiste en una calculadora interactiva escrita en Python, la cual permite determinar el cambio de velocidad (Delta-V) de un cohete, utilizando la ecuación del cohete de Tsiolkovsky. Además, incluye una visualización gráfica de cómo varía el Delta-V según la masa final del cohete.
 
 ## Fundamento físico
 
@@ -14,11 +14,11 @@ La ecuación del cohete de Tsiolkovsky se expresa como:
 ````
 
 Donde:
-- `Δv`: cambio de velocidad (m/s)
-- `ve`: velocidad de eyección de gases (m/s)
-- `m0`: masa inicial del cohete (kg)
-- `mf`: masa final del cohete (kg)
-- `ln`: logaritmo natural
+- `Δv`= cambio de velocidad (m/s)
+- `ve`= velocidad de eyección de gases (m/s)
+- `m0`= masa inicial del cohete (kg)
+- `mf`= masa final del cohete (kg)
+- `ln`= logaritmo natural
 
 
 ## Estructura del proyecto
@@ -32,10 +32,12 @@ El código está dividido en tres clases:
 
 ## Cómo ejecutar el programa
 
+Abrir tu interfaz de Python y ejecutar el código. Se debe tener matplotlib instalado, para hacerlo se ejecuta:
+  
    pip install matplotlib
 
 
-## 📈 Ejemplo de uso
+## Ejemplo de uso
 
 Velocidad de eyección (m/s): 3000
 Masa inicial (kg): 10000
@@ -45,17 +47,20 @@ El Delta-V es: 2748.87 m/s
 
 ## Requisitos técnicos
 
+Para correr el código se debe tener:
+
 * Python 3.8 o superior
 * matplotlib
 
 
 ## Aplicación
 
-Este proyecto fue realizado como trabajo para la asignatura de Programación para Ingeniería Aeroespacial. Permite ilustrar la relación entre masa y maniobrabilidad de un vehículo espacial, y demuestra cómo la programación puede apoyar el análisis y diseño en misiones aeroespaciales.
+El proyecto permite ilustrar la relación entre masa y maniobrabilidad de un vehículo espacial, al igual que demuestra cómo la programación puede apoyar en el análisis y el diseño en misiones aeroespaciales.
 
 ## Autores
 
 \Isabella Arenas Herrera
-\María Juliana Jiménez 
+\María Juliana Jiménez Páez 
 Universidad De Antioquia
 Programación y Ciencia Computacional - Ingeniería Aeroespacial
+Julio 2025
