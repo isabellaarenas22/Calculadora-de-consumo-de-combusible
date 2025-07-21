@@ -20,24 +20,36 @@ Donde:
 - `mf`= masa final del cohete (kg)
 - `ln`= logaritmo natural
 
-
-## Estructura del proyecto
-
 El código está dividido en tres clases:
 
 - `RocketCalculator`: realiza el cálculo del delta-V.
 - `DeltaVPlotter`: genera una gráfica de Delta-V vs masa final.
 - `Main`: gestiona la entrada del usuario, ejecución del cálculo y despliegue de resultados.
 
-  <!-- Sugerencia: Si se agregan más funcionalidades, actualizar esta lista -->
+## Autores
 
+\Isabella Arenas Herrera
+\María Juliana Jiménez Páez 
+Universidad De Antioquia
+Programación y Ciencia Computacional - Ingeniería Aeroespacial
+Julio 2025
 
-## Cómo ejecutar el programa
+## Requisitos técnicos
+
+Para correr el código se debe tener:
+
+* Python 3.8 o superior
+* matplotlib
+
+  ## Cómo ejecutar el programa
 
 Abrir tu interfaz de Python y ejecutar el código. Se debe tener matplotlib instalado, para hacerlo se ejecuta:
   
    pip install matplotlib
 
+Ejecuta el archivo:
+
+python calculadora_delta_v.py
 
 ## Ejemplo de uso
 
@@ -47,26 +59,7 @@ Masa final (kg): 4000
 
 El Delta-V es: 2748.87 m/s
 
-## Requisitos técnicos
-
-Para correr el código se debe tener:
-
-* Python 3.8 o superior
-* matplotlib
-
-<!-- agregar instrucciones de uso para el usuario -->
-
 
 ## Aplicación
 
 El proyecto permite ilustrar la relación entre masa y maniobrabilidad de un vehículo espacial, al igual que demuestra cómo la programación puede apoyar en el análisis y el diseño en misiones aeroespaciales.
-
-<!-- Si el proyecto crece, esta sección puede incluir más detalles técnicos -->
-
-## Autores
-
-\Isabella Arenas Herrera
-\María Juliana Jiménez Páez 
-Universidad De Antioquia
-Programación y Ciencia Computacional - Ingeniería Aeroespacial
-Julio 2025
